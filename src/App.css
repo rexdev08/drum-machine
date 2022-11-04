@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(133, 54, 208);
@@ -11,10 +12,7 @@
   background-repeat: no-repeat; */
   box-shadow: inset 0px 0px 10px 10px black;
   animation: colors 20s infinite alternate;
-
-  
-
-
+  gap: .4rem;
 }
 
 @keyframes colors {

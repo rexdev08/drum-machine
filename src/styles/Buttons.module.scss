@@ -1,13 +1,13 @@
 .buttons{
-    width:95%;
+    width:90%;
     height: 60%;
     background-color: #ff8818ed;
     border-radius: .3rem;
     display: grid;
-    grid-template-columns: repeat(3, minmax(30px, 80px));
+    grid-template-columns: repeat(3, minmax(30px, 100px));
     justify-content: center;
-    gap: .5rem;
-    padding: .5rem;
+    gap: 1rem;
+    padding: 1rem;
     box-shadow: inset 1px 1px 10px black;
 }
 
