@@ -1,0 +1,51 @@
+.drumMachine{
+
+
+    width: min(280px, 95vw);
+    height: 280px;
+    // background-color: #4b4b4b;
+    border-radius: .2rem;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 12px 5px 50px 3px rgba(218, 167, 125, 0.464);
+    padding: .3rem;
+    background-image: url(https://media.istockphoto.com/id/1177285295/es/vector/cuadr%C3%ADcula-de-altavoces-negros-ilustraci%C3%B3n.jpg?s=612x612&w=0&k=20&c=DNLU717OiGcbHtqM5tZIYHXw2LdNyWHmlu3SwmyIZ3M=);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+&__controls{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+}
+&__display{
+    width: 85%;
+    height: 30px;
+    // background-color: #00D802;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.871);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/862/939/791/background-green-pixels-square-hd-wallpaper-preview.jpg);
+    padding: 1rem;
+    box-shadow: inset 1px 1px 10px black;
+}
+&__volume{
+    width: 80%;
+    background-color: #fff;
+}
+}

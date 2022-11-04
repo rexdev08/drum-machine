@@ -1,0 +1,25 @@
+.buttons{
+    width:95%;
+    height: 60%;
+    background-color: #ff8818ed;
+    border-radius: .3rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30px, 80px));
+    justify-content: center;
+    gap: .5rem;
+    padding: .5rem;
+    box-shadow: inset 1px 1px 10px black;
+}
+
+.drumPad{
+    // width: 60px;
+    border: none;
+    border-radius: .3rem;
+    background-color: #0206cdc0;
+    cursor: pointer;
+    color: #5ed782f3;
+    font-size: 1.3rem;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px 1.5px rgb(55, 55, 55), inset 0px 0px 3px black;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.845);
+}
